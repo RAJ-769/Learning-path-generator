@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Path Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Learning Path Generator</h1>
+        <div class="container">
+            <div class="form-section">
+                <label for="goal">Enter your goal:</label>
+                <input type="text" id="goal" placeholder="E.g., Become a front-end developer, master data analysis" required autocomplete="off" />
+
+                <label for="knowledgeLevel">Select your knowledge level:</label>
+                <select id="knowledgeLevel" required>
+                    <option value="">Select...</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <label for="skills">Enter your current skills (comma-separated):</label>
+                <textarea id="skills" placeholder="E.g., HTML, Python, Data Analysis" required autocomplete="off"></textarea>
+
+                <label for="objective">Describe your learning objective:</label>
+                <textarea id="objective" placeholder="E.g., Build websites, analyze big data" required autocomplete="off"></textarea>
+
+                <div class="button-container">
+                    <button id="generateButton">Generate Learning Path</button>
+                    <button id="resetButton">Reset</button>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h2>Your Learning Path</h2>
+                <div id="output"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
