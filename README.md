@@ -13,6 +13,14 @@ An AI-powered web application that generates personalized learning paths based o
 
 ---
 
+## 🖼 Demo
+
+Here’s a quick preview of the app in action:
+
+![Demo](./demo.gif)
+
+---
+
 ## ⚙️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
